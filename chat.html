@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat w/Ravi- Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Ravi</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-la fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, Nov 29, 2020</div>
+
+      <div class="message-row message-row--ravi">
+        <img
+          src="https://lh3.googleusercontent.com/guFUftSj6tDMdTfL-MkGEyIfiC4Qjst3uGHXIJrPZSU50Ymed2ZDG0BVoFTuJvQniAHOgry0TK6PboZd4_GrMux-j6eihNuPEOnM3WPB4vgUgvz03PVuRysfLR6FM2fIAxBkRQmp8ZbgEsrRZTOcgE-IwdttA6u5CLiWgj3cNy-uYFlMzQW7yWr3S-9qnDRAEHd1wuWCgfZhati7DBWFAVKAwEOE5zG_PAo_KDgPKH6vzzDmUbyRZ2M8gH5IUWpe0hXk75CoX_7vdQEDnqVnfGl5iQqwAI9FEaD7QNph1tP5Nm5oK6xtxL-wy4FpEKb3hGZCs3H5CqykFGcxI5SrK_JNKec4mxsGgGXaUE__PKKXrvGfrMSTSAX3fHqjhpH0mR9ghWnBrSRYUGbM4ZtYxb8z4Ztx0736Q5YZCRcMLWUwhHNbHm6pG58smHj4g6naZ-FUoXhaEnT2aDO1ei3lpncxihenPUAgUPRStDIkTc9kig2tZaq2m6-jpGGvmRPhkBuAb3fT-EVMoZ8YSCRCeth2JckuJg0-c4UI4QjnbxOKe18YafwtgeZGlrfAhHC08V7m8bolVnUlRpgQNdlt3h7L1dVLT3iVx7nzPtqCIq8-W6tA-FEYW5-N23YMYiY3hGskax_QWAfDI_r3FX12vWUkGrtLDs7TXDvRH7ui26oBu1N3aLNHzdz0UnYn4Q=w459-h453-no?authuser=0"
+        />
+        <div class="message-row__content">
+          <span class="message_author">Ravi</span>
+          <div class="message__info">
+            <span class="message_bubble">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message_bubble">Hi nice to meet you!</span>
+            <span class="message__time">21:29</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9f1ef949cf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
